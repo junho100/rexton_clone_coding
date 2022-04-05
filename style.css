@@ -1,12 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Teko", sans-serif;
+}
 header {
-  height: 50px;
+  height: 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid black;
   padding-right: 1%;
   padding-left: 1%;
-  margin-bottom: 10px;
+  background: linear-gradient(to bottom, skyblue, navy);
 }
 #header_left {
   display: flex;
@@ -14,7 +21,16 @@ header {
 #header_left > * {
   margin-right: 10px;
 }
+image {
+  display: block;
+  width: 10%;
+  height: 0.1vh;
+}
 
+main {
+  height: 92%;
+  background: linear-gradient(to bottom, blue, skyblue);
+}
 #main_header {
   display: flex;
   justify-content: space-between;
